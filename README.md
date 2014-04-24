@@ -1,7 +1,7 @@
 ARNEventEmitter
 ======================
 
-[![Build Status](https://travis-ci.org/xxxAIRINxxx/ARNEventEmitter.svg?branch=0.1.0)](https://travis-ci.org/xxxAIRINxxx/ARNEventEmitter)
+[![Build Status](https://travis-ci.org/xxxAIRINxxx/ARNEventEmitter.svg?branch=master)](https://travis-ci.org/xxxAIRINxxx/ARNEventEmitter)
 
 I aimed at the implementation of Node.js EventEmmiter.
 
