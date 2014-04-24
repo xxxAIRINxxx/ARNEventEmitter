@@ -140,7 +140,7 @@ Use exchange Implementations by the following
 
 ```objectivec
 
-- (void)arn_observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
 
 ```
 
