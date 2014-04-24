@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A4C8F8319074C0900A29192 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4C8F8219074C0900A29192 /* Foundation.framework */; };
+		7A4C8F9119074C0900A29192 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4C8F9019074C0900A29192 /* XCTest.framework */; };
+		7A4C8F9219074C0900A29192 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4C8F8219074C0900A29192 /* Foundation.framework */; };
+		7A4C8F9419074C0A00A29192 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4C8F9319074C0900A29192 /* UIKit.framework */; };
+		7A4C8F9719074C0A00A29192 /* libARNEventEmitter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4C8F7F19074C0900A29192 /* libARNEventEmitter.a */; };
+		7A4C8F9D19074C0A00A29192 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A4C8F9B19074C0A00A29192 /* InfoPlist.strings */; };
+		7A4C8F9F19074C0A00A29192 /* ARNEventEmitterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4C8F9E19074C0A00A29192 /* ARNEventEmitterTests.m */; };
+		7A4C8FAB19074DC200A29192 /* NSObject+ARNEventEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4C8FAA19074DC200A29192 /* NSObject+ARNEventEmitter.m */; };
+		7A5A78F51907BA2300D1A72C /* NSObject+ARNEventEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4C8FAA19074DC200A29192 /* NSObject+ARNEventEmitter.m */; };
+		7A5A78F81907BA4400D1A72C /* ARNTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5A78F71907BA4400D1A72C /* ARNTestObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A4C8F9519074C0A00A29192 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A4C8F7719074C0900A29192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A4C8F7E19074C0900A29192;
+			remoteInfo = ARNEventEmitter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7A4C8F7D19074C0900A29192 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7A4C8F7F19074C0900A29192 /* libARNEventEmitter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libARNEventEmitter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A4C8F8219074C0900A29192 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7A4C8F8619074C0900A29192 /* ARNEventEmitter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ARNEventEmitter-Prefix.pch"; path = "../ARNEventEmitter-Prefix.pch"; sourceTree = "<group>"; };
+		7A4C8F8F19074C0900A29192 /* ARNEventEmitterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARNEventEmitterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A4C8F9019074C0900A29192 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7A4C8F9319074C0900A29192 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7A4C8F9A19074C0A00A29192 /* ARNEventEmitterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARNEventEmitterTests-Info.plist"; sourceTree = "<group>"; };
+		7A4C8F9C19074C0A00A29192 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7A4C8F9E19074C0A00A29192 /* ARNEventEmitterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARNEventEmitterTests.m; sourceTree = "<group>"; };
+		7A4C8FA919074DC200A29192 /* NSObject+ARNEventEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ARNEventEmitter.h"; sourceTree = "<group>"; };
+		7A4C8FAA19074DC200A29192 /* NSObject+ARNEventEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ARNEventEmitter.m"; sourceTree = "<group>"; };
+		7A5A78F61907BA4400D1A72C /* ARNTestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARNTestObject.h; sourceTree = "<group>"; };
+		7A5A78F71907BA4400D1A72C /* ARNTestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARNTestObject.m; sourceTree = "<group>"; };
+		7A5A78FF1907BF1700D1A72C /* ARNEventEmitterTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ARNEventEmitterTests-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A4C8F7C19074C0900A29192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4C8F8319074C0900A29192 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A4C8F8C19074C0900A29192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4C8F9119074C0900A29192 /* XCTest.framework in Frameworks */,
+				7A4C8F9419074C0A00A29192 /* UIKit.framework in Frameworks */,
+				7A4C8F9219074C0900A29192 /* Foundation.framework in Frameworks */,
+				7A4C8F9719074C0A00A29192 /* libARNEventEmitter.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A4C8F7619074C0900A29192 = {
+			isa = PBXGroup;
+			children = (
+				7A4C8F8419074C0900A29192 /* ARNEventEmitter */,
+				7A4C8F9819074C0A00A29192 /* ARNEventEmitterTests */,
+				7A4C8F8119074C0900A29192 /* Frameworks */,
+				7A4C8F8019074C0900A29192 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A4C8F8019074C0900A29192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A4C8F7F19074C0900A29192 /* libARNEventEmitter.a */,
+				7A4C8F8F19074C0900A29192 /* ARNEventEmitterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A4C8F8119074C0900A29192 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A4C8F8219074C0900A29192 /* Foundation.framework */,
+				7A4C8F9019074C0900A29192 /* XCTest.framework */,
+				7A4C8F9319074C0900A29192 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A4C8F8419074C0900A29192 /* ARNEventEmitter */ = {
+			isa = PBXGroup;
+			children = (
+				7A4C8FA919074DC200A29192 /* NSObject+ARNEventEmitter.h */,
+				7A4C8FAA19074DC200A29192 /* NSObject+ARNEventEmitter.m */,
+				7A4C8F8519074C0900A29192 /* Supporting Files */,
+			);
+			path = ARNEventEmitter;
+			sourceTree = "<group>";
+		};
+		7A4C8F8519074C0900A29192 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A4C8F8619074C0900A29192 /* ARNEventEmitter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A4C8F9819074C0A00A29192 /* ARNEventEmitterTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A4C8F9919074C0A00A29192 /* Supporting Files */,
+				7A4C8F9E19074C0A00A29192 /* ARNEventEmitterTests.m */,
+				7A5A78F61907BA4400D1A72C /* ARNTestObject.h */,
+				7A5A78F71907BA4400D1A72C /* ARNTestObject.m */,
+			);
+			path = ARNEventEmitterTests;
+			sourceTree = "<group>";
+		};
+		7A4C8F9919074C0A00A29192 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A4C8F9A19074C0A00A29192 /* ARNEventEmitterTests-Info.plist */,
+				7A5A78FF1907BF1700D1A72C /* ARNEventEmitterTests-Prefix.pch */,
+				7A4C8F9B19074C0A00A29192 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A4C8F7E19074C0900A29192 /* ARNEventEmitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A4C8FA219074C0A00A29192 /* Build configuration list for PBXNativeTarget "ARNEventEmitter" */;
+			buildPhases = (
+				7A4C8F7B19074C0900A29192 /* Sources */,
+				7A4C8F7C19074C0900A29192 /* Frameworks */,
+				7A4C8F7D19074C0900A29192 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARNEventEmitter;
+			productName = ARNEventEmitter;
+			productReference = 7A4C8F7F19074C0900A29192 /* libARNEventEmitter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7A4C8F8E19074C0900A29192 /* ARNEventEmitterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A4C8FA519074C0A00A29192 /* Build configuration list for PBXNativeTarget "ARNEventEmitterTests" */;
+			buildPhases = (
+				7A4C8F8B19074C0900A29192 /* Sources */,
+				7A4C8F8C19074C0900A29192 /* Frameworks */,
+				7A4C8F8D19074C0900A29192 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A4C8F9619074C0A00A29192 /* PBXTargetDependency */,
+			);
+			name = ARNEventEmitterTests;
+			productName = ARNEventEmitterTests;
+			productReference = 7A4C8F8F19074C0900A29192 /* ARNEventEmitterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A4C8F7719074C0900A29192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Airin.;
+			};
+			buildConfigurationList = 7A4C8F7A19074C0900A29192 /* Build configuration list for PBXProject "ARNEventEmitter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7A4C8F7619074C0900A29192;
+			productRefGroup = 7A4C8F8019074C0900A29192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A4C8F7E19074C0900A29192 /* ARNEventEmitter */,
+				7A4C8F8E19074C0900A29192 /* ARNEventEmitterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A4C8F8D19074C0900A29192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4C8F9D19074C0A00A29192 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A4C8F7B19074C0900A29192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4C8FAB19074DC200A29192 /* NSObject+ARNEventEmitter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A4C8F8B19074C0900A29192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A4C8F9F19074C0A00A29192 /* ARNEventEmitterTests.m in Sources */,
+				7A5A78F81907BA4400D1A72C /* ARNTestObject.m in Sources */,
+				7A5A78F51907BA2300D1A72C /* NSObject+ARNEventEmitter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A4C8F9619074C0A00A29192 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A4C8F7E19074C0900A29192 /* ARNEventEmitter */;
+			targetProxy = 7A4C8F9519074C0A00A29192 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A4C8F9B19074C0A00A29192 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A4C8F9C19074C0A00A29192 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A4C8FA019074C0A00A29192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7A4C8FA119074C0A00A29192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A4C8FA319074C0A00A29192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ARNEventEmitter.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARNEventEmitter-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7A4C8FA419074C0A00A29192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ARNEventEmitter.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARNEventEmitter-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7A4C8FA619074C0A00A29192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARNEventEmitterTests/ARNEventEmitterTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ARNEventEmitterTests/ARNEventEmitterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7A4C8FA719074C0A00A29192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARNEventEmitterTests/ARNEventEmitterTests-Prefix.pch";
+				INFOPLIST_FILE = "ARNEventEmitterTests/ARNEventEmitterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A4C8F7A19074C0900A29192 /* Build configuration list for PBXProject "ARNEventEmitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A4C8FA019074C0A00A29192 /* Debug */,
+				7A4C8FA119074C0A00A29192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A4C8FA219074C0A00A29192 /* Build configuration list for PBXNativeTarget "ARNEventEmitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A4C8FA319074C0A00A29192 /* Debug */,
+				7A4C8FA419074C0A00A29192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A4C8FA519074C0A00A29192 /* Build configuration list for PBXNativeTarget "ARNEventEmitterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A4C8FA619074C0A00A29192 /* Debug */,
+				7A4C8FA719074C0A00A29192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A4C8F7719074C0900A29192 /* Project object */;
+}
