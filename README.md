@@ -23,7 +23,8 @@ It was inspired by the following products.
 Requirements
 ============
 
-ARNEventEmitter requires iOS 5.0 and above, and uses ARC.
+Requires iOS 5.0 or later, and uses ARC.
+
 
 How To Use
 ============
